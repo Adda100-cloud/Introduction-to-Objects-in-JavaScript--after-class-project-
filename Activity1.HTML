@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>JavaScript Math Object Methods</title>
+    </head>
+    <body>
+        <p>Finding the sum of arguments and using Math object methods</p>
+        <p id="result"></p>
+        <script>
+            function findSum() {
+                var sum = 0;
+                for (var i = 0; i < arguments.length; i++) {
+                    sum += arguments[i];
+                }
+            document.write(Math.acos(sum)) ;
+           document.write(Math.asin(sum));
+           document.write(Math.atan(sum));
+            }
+
+findSum(4,5,6)            
+          
+        </script>
+    </body>
+</html>
